@@ -6,7 +6,7 @@ import mechanize
 
 #Set up requests session
 login_url = 'https://chess-db.com/public/login.jsp?'
-login_data = dict(username='sargentbrett18@hotmail.com', password='chinchico')
+login_data = dict(username='YourEmail@something.com', password='password')
 session = requests.session()
 
 r = session.post(login_url, data=login_data)
